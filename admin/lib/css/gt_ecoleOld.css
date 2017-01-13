@@ -1,0 +1,39 @@
+/* Style pour gt */
+.pink {background:lightpink;}
+.green {background:lightgreen;}
+.blue {background:lightblue;}
+
+.txtGras { font-weight:bold;}
+.txtRouge {color:#900;}
+.txtBleu {color:#009;}
+.txt150 { font-size:150%;}
+
+
+/********************** STRUCTURE GENERALE *****************************************/
+img {
+    width:100%;
+}
+
+header{
+    padding:1.2em;    
+}
+
+nav {
+      margin-top:10px;
+}
+
+nav a {
+   color:#900;
+   font-size:120%;
+   text-decoration:none;
+}
+
+nav a:hover {
+    color:#009;
+    text-decoration:underline;
+}
+
+#footer {
+    text-align:center;    
+    color:#CCC;
+}

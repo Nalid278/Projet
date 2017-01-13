@@ -1,0 +1,94 @@
+/* style gt_style.css */
+body {
+    background-image:url("http://www.boxedart.com/Tutorials/Photoshop/images/pattern_step05.gif");
+}
+
+#contenu {
+    background-color: white;
+}
+
+.txtBlue { color:blue; }
+.txtRouge {color:#900;}
+.txtGras {font-weight : bold;}
+
+.pink { background:lightpink; }
+
+
+
+.green { background:#0CF; }
+.blue { background:lightskyblue; }
+
+.txtGras{font-weight:bold;}
+.txt150{
+    font-size: 150%;
+}
+.txt180{
+    font-size: 180%;
+}
+.margin1{margin-right:1em;}a
+/*************************ADMIN ************************************/
+
+#accueil_admin img img{
+
+}
+
+/**************************Carousel accueil ***************************/
+.carousel{
+    /*background: #2f4357;*/
+    margin-top: 20px;
+    width:100%;
+}
+.item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.bs-example{
+    margin: 10px;
+}
+
+/******************************* Gabarit *********************************/
+
+header {
+    margin:auto 0;
+    width:100%;    
+    padding:1.2em;    
+}
+
+#main {
+    margin-left: 1em;
+    padding-left:1em;
+}
+
+nav {
+    margin-left: 1em;
+    margin-top: 1.5em;
+    
+}
+
+.nopuce {
+    list-style-type:none;
+}
+
+nav a{
+    color:#900;
+    font-size:120%;
+    text-decoration:none;
+}
+
+nav a:hover {
+    color:#009;
+    text-decoration:underline;
+}
+
+img{
+    width:100%;
+}
+
+footer {
+    clear:both; 
+    color:#333;
+    width:80%;
+    margin:0 auto; 
+    text-align:center;
+    padding-right:15px;
+    padding-top:1%;
+}	
