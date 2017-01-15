@@ -14,11 +14,11 @@ session_start();
     </head>
     <body>
         <header>
-            <!-- <div class="container">
-                <img src="./images/gt_banniere.jpg" alt="Berlioz"/>
-            </div> -->
+            <div class="container">
+                <img src="./images/gt_banniere.jpg" alt="banProjetWeb" id="banniere"/>
+            </div>
         </header>
-        <div class="container">
+        <div class="container" id="contenu">
             <div class="row">
                 <div class="col-sm-2">
                     <nav>
@@ -90,7 +90,7 @@ session_start();
                 </div>
             </div>
             <footer>               
-                webmaster#berlioz-delices.be
+                webmaster#projetweb
             </footer>
         </div>
     </body>
