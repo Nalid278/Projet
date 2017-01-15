@@ -20,9 +20,9 @@ session_start();
 
     <body>
         <header>
-            <!-- <div class="container">
-                <img src="admin/images/gt_banniere.jpg" alt="Berlioz Délices" title="Berlioz Délices"/>
-            </div> -->
+            <div class="container" >
+                <img src="admin/images/gt_banniere.jpg" alt="banProjetWeb" title="banProjetWeb" id="banniere"/>
+            </div>
         </header>
         <br/>
         <div class="container" id='contenu'>
