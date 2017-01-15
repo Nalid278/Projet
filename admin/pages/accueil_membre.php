@@ -4,6 +4,7 @@
 
     <div class="row">
         <div class="col-sm-4">
+            
             <h1>Accueil membre</h1>
         	<img src="./images/christmas3.jpg" alt="Admin" class="floatLeft"/>&nbsp;
 	 </div>

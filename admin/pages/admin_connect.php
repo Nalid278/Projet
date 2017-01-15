@@ -16,8 +16,8 @@ if (isset($_POST['submit_login'])) {
         $message = "Données incorrectes";
     }
 
-    if ($retour2 == 1) {
-        $_SESSION['membre'] = 1;
+    if ($retour2 > 0) {
+        $_SESSION['membre'] = $retour2;
         $message = "Authentifié membre;";
         
         print "<meta http-equiv=\"refresh\": Content=\"0;url=./index.php\">";
