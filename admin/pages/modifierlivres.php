@@ -9,8 +9,8 @@ $nbrT = count($liste_l);
     <div class="row">
         <div class="col-sm-2">
             <?php
-                for ($i = 0; $i < $nbrT; $i++) {
-                    print $liste_l[$i]->id_ebook. ". Titre : ";
+                for ($i = 1; $i < $nbrT; $i++) {
+                    print $i." . Titre : ";
                     print utf8_encode($liste_l[$i]->titre). "   ";
                     ?> <a class="txtBlue" href ="index.php?id_ebook=<?php print $liste_l[$i]->id_ebook;?>&page=modifierlivreformulaire">
                         Modifier
