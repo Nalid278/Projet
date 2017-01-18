@@ -1,3 +1,4 @@
+<?php  require './lib/php/verifierCnx.php'; ?>
 <?php
 
 $type = new LivreDB($cnx);

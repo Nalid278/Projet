@@ -1,3 +1,4 @@
+<?php  require './lib/php/verifierCnx.php'; ?>
 <h2 class="txtRouge">Membres inscrits</h2>
 <?php
 $type = new MembreDB($cnx);

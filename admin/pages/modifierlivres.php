@@ -1,3 +1,4 @@
+<?php  require './lib/php/verifierCnx.php'; ?>
 <h2 class="txtRouge">Livres disponibles</h2>
 <?php
 $type = new LivreDB($cnx);

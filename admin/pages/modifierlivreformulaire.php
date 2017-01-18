@@ -1,3 +1,4 @@
+<?php  require './lib/php/verifierCnx.php'; ?>
 <h2>MODIFICATION</h2>
 <?php 
 $type = new LivreDB($cnx);
@@ -13,11 +14,11 @@ if (isset($_GET['modifier_livre'])) {
     
     if ($retour >= 1) {
         echo "<script>alert('Modification OK');</script>";
-        //header("Location: http://lamp-edu.condorcet.be/~dilan.kandemir@condorcet.be/gt_ecole3/admin/index.php?page=modifierlivres");
+        header("refresh:1, http://lamp-edu.condorcet.be/~dilan.kandemir@condorcet.be/gt_ecole3/admin/index.php?page=modifierlivres");
     } else {
         
         echo "<script>alert('Une erreur s'est produite);</script>";
-        //header("Location: http://lamp-edu.condorcet.be/~dilan.kandemir@condorcet.be/gt_ecole3/admin/index.php?page=modifierlivres");
+        header("refresh:1 http://lamp-edu.condorcet.be/~dilan.kandemir@condorcet.be/gt_ecole3/admin/index.php?page=modifierlivres");
         
     }
 }

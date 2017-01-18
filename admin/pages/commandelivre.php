@@ -1,3 +1,4 @@
+<?php  require './lib/php/verifierCnx2.php'; ?>
 <?php
 $type = new LivreDB($cnx);
 $type2 = new MembreDB($cnx);
