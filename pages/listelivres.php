@@ -4,7 +4,11 @@ $type = new LivreDB($cnx);
 $liste_l = $type->getTousLesLivres();
 $nbrT = count($liste_l);
 ?>
-
+<div class="row">
+    <div class="col-sm-12">
+        <a href="./pages/printLivres.php" target="_blank" class="pull-right">Imprimer</a>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-sm-2">
