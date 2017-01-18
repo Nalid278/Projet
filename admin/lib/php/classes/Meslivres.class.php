@@ -1,6 +1,6 @@
 <?php
 
-class Livre {
+class Meslivres {
 
     private $_attributs = array();
 
