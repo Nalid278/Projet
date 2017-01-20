@@ -8,13 +8,16 @@ session_start();
 
 <html>
     <head>
-        <title>Berlioz Délices</title>
+        <title>Projet web</title>
         <link rel="stylesheet" type="text/css" href="./admin/lib/css/bootstrap-3.3.7/dist/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="./admin/lib/css/gt_ecole.css"/> 
         <script src="admin/lib/js/jquery-3.1.1.js"></script>
         <script src="admin/lib/css/bootstrap-3.3.7/dist/js/bootstrap.js"></script>
         <script src="admin/lib/js/functionsBtJquery.js"></script>
         <script src="admin/lib/js/functionsJquery.js"></script>
+        <script src="admin/lib/js/functionsJqueryVal.js"></script>
+        <script src="admin/lib/js/messagesJqueryVal.js"></script>
+        
         <meta charset='UTF-8'/>
     </head>
 
