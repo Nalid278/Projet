@@ -8,10 +8,12 @@ $(document).ready(function() {
                 type: 'GET',
                 data: recherche,
                 dataType: "json",
-                url: './php/ajax/AjaxRechercheClient.php',
+                url: './lib/php/ajax/AjaxRechercheClient.php',
                 success: function(data) { //data = ce qui revient du script PHP
                     $("#prenom").val(data[0].prenom);
-                    $("#pseudo").val(data[0].pseudo);                  
+                    $("#pseudo").val(data[0].pseudo);
+                    $("#email").val(data[0].pseudo); 
+                    $("#mdp").val(data[0].pseudo); 
                     console.log(data[0].prenom);
                 }
             });
