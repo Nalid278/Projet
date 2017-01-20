@@ -44,7 +44,17 @@ class MeslivresDB extends Membre {
                 print $e->getMessage();
             }
         }
-        return $_typeArray;
+        
+        if(isset($_typeArray)) {
+            return $_typeArray;
+            
+        } else {
+            return $_typeArray2[]=NULL;
+        }
+        
+        
+        
+        
     }
 
 }

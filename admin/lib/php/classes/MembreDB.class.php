@@ -14,7 +14,7 @@ class MembreDB extends Membre {
             $query = "select verifier_connexion2(:login,:password) as retour";
             $sql = $this->_db->prepare($query);
             $sql->bindValue(':login', $login);
-            $sql->bindValue(':password', $password);
+            $sql->bindValue(':password', md5($password));
             $sql->execute();
             $retour = $sql->fetchColumn(0);
         } catch (PDOException $e) {
@@ -28,7 +28,7 @@ class MembreDB extends Membre {
             $query = "select inscription(:pseudo,:mdp,:email,:nom,:prenom);";
             $resultset = $this->_db->prepare($query);
             $resultset->bindValue(1, $pseudo, PDO::PARAM_STR);
-            $resultset->bindValue(2, $mdp, PDO::PARAM_STR);
+            $resultset->bindValue(2, md5($mdp), PDO::PARAM_STR);
             $resultset->bindValue(3, $email, PDO::PARAM_STR);
             $resultset->bindValue(4, $nom, PDO::PARAM_STR);
             $resultset->bindValue(5, $prenom, PDO::PARAM_STR);
