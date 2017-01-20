@@ -3,6 +3,11 @@ body {
     background-image:url("http://www.boxedart.com/Tutorials/Photoshop/images/pattern_step05.gif");
 }
 
+#lien{
+    text-align: right;
+    float: right;
+}
+
 #contenu {
     background-color: white;
 }
