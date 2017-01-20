@@ -39,35 +39,35 @@ if (isset($_GET['sinscrire'])) {
         <div class="row">
             <div class="col-sm-2"><label for="pseudo">Pseudo</label></div>
             <div class="col-sm-4">
-                <input type="text" id="pseudo" name="pseudo" />
+                <input type="text" id="pseudo" name="pseudo" pattern="[A-Z][a-z]*" title="Doit commencer par une majuscule" required/>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-sm-2"><label for="mdp">Mot de passe</label></div>
-            <div class="col-sm-4">
-                <input type="text" name="mdp" id="mdp" />
+            <div class="col-sm-4"> 
+                <input type="text" name="mdp" id="mdp" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Minimum 8 caractères avec un chiffre, une majuscule et une minuscule" required/>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-sm-2"><label for="email">email</label></div>
             <div class="col-sm-4">
-                <input type="text" name="email" id="email" />
+                <input type="text" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="aaa@aaa.aa" placeholder="aaa@aaa.aa" required/>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-sm-2"><label for="nom">Nom</label></div>
             <div class="col-sm-4">
-                <input type="text" name="nom" id="nom"/>
+                <input type="text" name="nom" id="nom" pattern="^([ \u00c0-\u01ffa-zA-Z'\-])+$" placeholder="Jean ou jean" required/>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-sm-2"><label for="prenom">Prénom</label></div>
             <div class="col-sm-4">
-                <input type="text" name="prenom" id="prenom" />
+                <input type="text" name="prenom" id="prenom" pattern="^([ \u00c0-\u01ffa-zA-Z'\-])+$" placeholder="Jean ou jean" required/>
             </div>
         </div> 
         <br>
