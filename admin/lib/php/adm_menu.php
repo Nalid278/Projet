@@ -20,15 +20,15 @@
     <h3>Client</h3>
     <div class="col-sm-12"><span class="glyphicon glyphicon-triangle-right"></span>
         &nbsp;
-    <a href="./index.php?page=ajoutclients" class="txtGras">Ajout</a>
+    <a href="./index.php?page=recherchemembre" class="txtGras">Recherche</a>
     </div>
     <div class="col-sm-12"><span class="glyphicon glyphicon-triangle-right"></span>
         &nbsp;
-       <a href="./index.php?page=modifierclient" class="txtGras">Modifier</a>
+       <a href="./index.php?page=modifiermembres" class="txtGras">Modifier</a>
     </div>
     <div class="col-sm-12"><span class="glyphicon glyphicon-triangle-right"></span>
         &nbsp;
-       <a href="./index.php?page=supprimerclient" class="txtGras">Supprimer</a>
+       <a href="./index.php?page=supprimermembres" class="txtGras">Supprimer</a>
     </div>
 </div>
 
