@@ -41,16 +41,17 @@ if (isset($_GET['encoder_livre'])) {
             </div>
         </div>
         <br>
-        <!--<div class="row">
-            <div class="col-sm-2"><label for="auteur">Auteur</label></div>
-            <div class="col-sm-4">
-                <input type="text" name="auteur" id="auteur" placeholder="ex : J.K. Rowling"/>
-            </div>
-        </div>-->
         <div class="row">
             <div class="col-sm-2"><label for="ref">Reference</label></div>
             <div class="col-sm-4">
                 <input type="text" name="ref" id="ref" />
+            </div>
+        </div> 
+        <br>
+        <div class="row">
+            <div class="col-sm-2"><label for="contenu">Contenu</label></div>
+            <div class="col-sm-4">
+                <textarea type="text" name="contenu" id="contenu"/></textarea>
             </div>
         </div> 
         <br>

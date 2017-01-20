@@ -1,4 +1,4 @@
-<?php  require './lib/php/verifierCnx2.php'; ?>
+
 <?php
 
 require '../lib/php/dbConnect.php';
@@ -43,7 +43,7 @@ $x = 2.5;$y =4;
     $pdf->SetFillColor(180,0,0);
     $pdf->SetTextColor(255,255,255);
     $pdf->SetXY(10, 3);
-    $pdf->Cell(16,10,$liste[0]['titre'],1,1,'L',1);
+    $pdf->Cell(185,10,$liste[0]['titre'],1,1,'L',1);
     
     $pdf->SetDrawColor(0, 0 ,0);
     $pdf->SetFillColor(255,255,255);
